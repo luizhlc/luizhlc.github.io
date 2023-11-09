@@ -1,1 +1,652 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LHCancellier's Resume</title>
+    <meta name="description" content="Luiz Henrique Cancellier's Resume">
+    <meta name="author" content="Luiz Henrique Cancellier @">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/skeleton.css">
+    <link rel="stylesheet" href="/static/css/layout.css">
+    <link rel="stylesheet" href="/static/fonts/font-awesome.css">
+    <link rel="stylesheet" href="/static/css/academicons.css" />
+    <style>
+      :target {
+        background-color:#50EBEC;
+        animation-name:bckanim;
+        animation-fill-mode:forwards;
+        animation-duration:2s;
+        animation-delay:0s;
+      }
+      @keyframes bckanim {
+        0% {background-color:#50EBEC;}
+        100% { background-color:transparent;}
+      }
+    </style>
+
+    <style>
+      .tooltip {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .tooltip .tooltiptext {
+        visibility: visible;
+        width: 140px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px;
+        position: absolute;
+        z-index: 1;
+        bottom: 150%;
+        left: 50%;
+        margin-left: -75px;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+      
+      .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+      }
+      
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+      }
+      </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="three columns">
+        <img src="/static/img/profile.jpg" class="me">
+        <h1>Luiz Herique Cancellier</h1>
+        <address>
+          <a href="https://www.google.com.br/maps/place/Departamento+de+Inform%C3%A1tica+e+Estat%C3%ADstica/@-27.6005034,-48.5191306,17z/data=!4m6!1m3!3m2!1s0x952739ab06a8bca7:0x9904bca1385e0f9d!2sUniversidade+Federal+de+Santa+Catarina!3m1!1s0x0000000000000000:0xc2fd35f96d3fb9b3?hl=pt-BR">
+            UFSC, bairro Trindade<br/>
+            Centro Tecnológico<br/>
+            INE, sala 417<br/>
+            88040-900<br/>
+            Florianopolis/SC<br/>
+            Brazil
+          </a>
+        </address>
+        <article>
+          <u><a href="mailto:luizhenriquecancellier@gmail.com" target="blank"><i><img src="/static/img/gmail_icon.svg" height="20" width="20" /></i></a> </u>luizhenriquecancellier<br/>
+          @gmail.com
+
+        </article>
+        <!-- <p> <a href="mail: luizhenriquecancellier@gmail.com">e-mail</a> </p> -->
+        <p> <u><a href="https://www.linkedin.com/in/luizhlc/" target="blank"><i><img src="/static/img/linkedin_icon.svg" height="20" width="20" /></i> /luizhlc</a> </u></p>
+        <p> <u><a href="https://gitlab.com/luiz_hlc" target="blank"><i><img src="/static/img/gitlab_icon.png" height="20" width="20" /></i> /luiz_hlc</a> </u></p>
+        <p> <u><a href="https://github.com/luizhlc" target="blank"><i><img src="/static/img/github_icon.png" height="20" width="20" /></i> /luizhlc</a> </u></p>
+        <p> <u><a href="lattes.cnpq.br/8501485095646713" target="blank"><i><img src="/static/img/lattes_icon.gif" height="20" width="20" /></i></a> </u></p>
+        
+        <p> Last update on November 7, 2023</p> 
+    </header>
+  
+    <div class="thirteen columns clearfix">
+      
+      <section class="thirteen columns">
+        
+        <h1>About</h1>
+        <article>
+          I am pursuing a Ph.D. in Computer Science, and my research centers on advancing Video and Image Learned Compression. 
+          For my thesis, I am exploring scalable image compression to combine the strengths of both hand-crafted and learned compression techniques in a single framework.
+          My research spans diverse areas, showcasing a blend of skills in hardware design, optimization, algorithm development, and machine learning. 
+          This interdisciplinary approach allows me to apply my knowledge across various domains, solving complex problems and driving innovation.
+        </article>
+
+        <section class="thirteen columns">
+          <h1>Current Status</h1>
+            <article>
+              <header>
+                <h1>Ph.D. Candidate in Computer Science @ <a href="https://ecl.ufsc.br/" target="blank">Embedded Computing Lab</a> - <a href="https://ppgcc.ufsc.br/" target="blank">PPGCC/UFSC</a></h1>
+                <span><address>Florianopolis, BR</address><time>2019 to now</time></span>
+              </header>
+              <p> Keywords: Artificial Intelligence, Video/Image Compression, Scalable Compression, Frame Interpolation, Super Resolution.</p>
+            </article>
+        </section>
+
+        <section class="thirteen columns">
+          <h1>Academic Degrees</h1>
+            <article>
+              <header>
+                <h1>M.Sc. in Computer Science @ <a href="https://ecl.ufsc.br/" target="blank">Embedded Computing Lab</a> - <a href="https://ppgcc.ufsc.br/" target="blank">PPGCC/UFSC</a></h1>
+                <span><address>Florianopolis, BR</address><time>2017-2019</time></span>
+              </header>
+              <p> Keywords: Video Compression, HEVC, Motion Estimation, Block Partitioning.</p>
+            </article>
+            <article>
+              <header>
+                <h1>B.Sc. in Computer Science @ <a href="https://ecl.ufsc.br/" target="blank">Embedded Computing Lab</a> - <a href="https://cco.ufsc.br/" target="blank">CCO/UFSC</a></h1>
+                <span><address>Florianopolis, BR</address><time>2012-2017</time></span>
+              </header>
+              <p> Keywords: Video Compression, HEVC, Motion Estimation, Successive Elimination Algorithm, SATD.</p>
+            </article>
+        </section>
+
+        <section class="thirteen columns">
+          <h1>Academic Experience</h1>
+          <article>
+            <header>
+              <h1>Invited Researcher @ <a href="https://www.uc.pt/fctuc/deec" target="blank"> Universidade de Coimbra - DEEC/FCTUC </a></h1>
+              <span><address>Coimbra, PT</address><time>2021-2022</time></span>
+            </header>
+            <p> Supervisor: Luis A. da Silva Cruz.</p>
+            <p> Keywords: Artificial Intelligence, Video/Image Compression, Scalable Compression, Frame Interpolation, Super Resolution.</p>
+          </article>
+          <article>
+            <header>
+              <h1>Research Assistant @ <a href="https://ecl.ufsc.br/" target="blank">Embedded Computing Lab - UFSC</a></h1>
+              <span><address>Florianopolis, BR</address><time>2013-2017</time></span>
+            </header>
+            <p> Keywords: Video Compression, Hardware Design, HEVC, VVC, Motion Estimation, SATD.</p>
+          </article>
+
+        </section>
+
+        <section class="thirteen columns">
+          <h1>Skills</h1>
+          List in alphabetical order:
+          <article>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>Algebra</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>Algorithm Design*</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>Arch Linux</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>C++*</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+                &nbsp;&nbsp;<em>English</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>Git</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>H.26X Reference Softwares</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>Hardware Design*</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>Java</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>Latex</em>
+            </p>
+            <p> 
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>Object-Oriented Programming</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>Parallel Programming</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              &nbsp;&nbsp;<em>Python*</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>Pytorch*</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>Tensorflow</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>Verilog</em>
+            </p>
+            <p>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              &nbsp;&nbsp;<em>VHDL</em>
+            </p>
+            <p>*Topics that I particularly like to study</p>
+          </article>
+        </section>
+
+        <section class="thirteen columns">
+          <h1>Awards</h1>
+          <article>
+            <ul>
+              <li>2021 - 1º CTIC - A Brazilian Computer Society (SBC) competition of undergraduate scientific works <a href="#CTIC21" style="text-decoration: underline;">[paper]</a>;</li>  
+              <li>2020 - 1º SIC/UFSC - A University competition of undergraduate scientific works;</li>
+              <li>2018 - Best Paper Award in 33rd South Symposium on Microelectronics (SIM) <a href="#SIM18" style="text-decoration: underline;">[paper]</a>;</li>
+              <li>2017 - Top-9 CTIC - A Brazilian Computer Society (SBC) competition of undergraduate scientific works <a href="#CTIC17" style="text-decoration: underline;">[paper]</a>;</li>
+            </ul>
+          </article>
+        </section>
+
+
+        <section class="thirteen columns">
+          <h1>Publications</h1>
+          <article>
+            <div class="tooltip">
+              <textarea id="bib-2023b" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@inproceedings{brascher2023b,
+  author={Bräscher, André Beims and Da Silveira, Gabriela Furtado and Cancellier, Luiz Henrique and Seidel, Ismael and Grellert, Mateus and Güntzel, José Luís},
+  booktitle={2023 36th SBC/SBMicro/IEEE/ACM Symposium on Integrated Circuits and Systems Design (SBCCI)}, 
+  title={A New Approach to Video Coding Leveraging Hybrid Coding and Video Frame Interpolation}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/SBCCI60457.2023.10261663}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2023b', 'bib-2023b')" onmouseout="outFunc('label-2023b')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2023b" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            André Beims Bräscher, Gabriela Furtado da Silveira, <strong>Luiz Henrique Cancellier</strong>, Ismael Seidel, Mateus Grellert, José Luis Güntzel;
+            <a href="https://ieeexplore.ieee.org/document/10261663" style="text-decoration: underline;" target="_blank">
+              &quot;A New Approach to Video Coding Leveraging Hybrid Coding and Video Frame Interpolation&quot;;
+            </a>
+            &nbsp; 36th SBC/SBMicro/IEEE/ACM Symposium on Integrated Circuits and Systems Design (SBCCI) - 2023
+          </article>
+          <article>
+            <div class="tooltip">
+              <textarea id="bib-2023a" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@inproceedings{brascher2023a,
+  author={Bräscher, André Beims and Silveira, Gabriela Furtado and Cancellier, Luiz Henrique and Seidel, Ismael and Grellert, Mateus and Güntzel, José Luís},
+  booktitle={38th South Symposium on Microelectronics (SIM)}, 
+  title={Improving Video Coding Efficiency Through Frame Elimination and VFI Reconstruction}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={},
+  doi={}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2023a', 'bib-2023a')" onmouseout="outFunc('label-2023a')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2023a" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            André Beims Bräscher, Gabriela Furtado da Silveira, <strong>Luiz Henrique Cancellier</strong>, Ismael Seidel, Mateus Grellert, José Luis Güntzel;
+              &quot;Improving Video Coding Efficiency Through Frame Elimination and VFI Reconstruction&quot;;
+            &nbsp; 38th South Symposium on Microelectronics (SIM) - 2023
+          </article>
+          <article>
+            <div class="tooltip">
+              <textarea id="bib-2022" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@inproceedings{cancellier2022,
+  author={Cancellier, Luiz Henrique and Grellert, Mateus and Güntzel, José Luís and Da Silva Cruz, Luís A.},
+  booktitle={2022 10th European Workshop on Visual Information Processing (EUVIP)}, 
+  title={Autoencoder Model Exploration for Multi-Layer Video Compression}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/EUVIP53989.2022.9922780}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2022', 'bib-2022')" onmouseout="outFunc('label-2022')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2022" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            <strong>Luiz Henrique Cancellier</strong>, Mateus Grellert, José Luis Güntzel, Luís A. Da Silva Cruz;
+            <a href="https://ieeexplore.ieee.org/document/9922780" style="text-decoration: underline;" target="_blank">
+              &quot;Autoencoder Model Exploration for Multi-Layer Video Compression&quot;;
+            </a>
+            &nbsp; 10th European Workshop on Visual Information Processing (EUVIP) - 2022
+          </article>
+          <article>
+            <div class="tooltip">
+              <textarea id="bib-2021b" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@inproceedings{santanna2021b,
+  author={Sant'Anna, Gabriel B. and Henrique Cancellier, Luiz and Seidel, Ismael and Grellert, Mateus and Güntzel, José Luís},
+  booktitle={ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Relying on a Rate Constraint to Reduce Motion Estimation Complexity}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1560-1564},
+  doi={10.1109/ICASSP39728.2021.9414799}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2021b', 'bib-2021b')" onmouseout="outFunc('label-2021b')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2021b" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            Gabriel B. Sant'Anna, <strong>Luiz Henrique Cancellier</strong>, Ismael Seidel, Mateus Grellert, José Luis Güntzel;
+            <a href="https://ieeexplore.ieee.org/document/9414799" style="text-decoration: underline;" target="_blank">
+              &quot;Relying on a Rate Constraint to Reduce Motion Estimation Complexity&quot;;
+            </a>
+            &nbsp; IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) - 2021
+          </article>
+          <article id="CTIC21">
+            <div class="tooltip">
+              <textarea id="bib-2021a" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@article{santanna2021a, 
+  title={Eliminação de Candidatos Baseada em Taxa para Algoritmos de Estimação de Movimento na Codificação de Vídeo}, 
+  volume={19}, 
+  number={2}, 
+  journal={Revista Eletrônica de Iniciação Científica em Computação}, 
+  author={Sant'Anna, Gabriel B. and Cancellier, Luiz Henrique and Seidel, Ismael and Grellert, Mateus and Güntzel, José Luís}, 
+  year={2021}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2021a', 'bib-2021a')" onmouseout="outFunc('label-2021a')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2021a" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            Gabriel B. Sant'Anna, <strong>Luiz Henrique Cancellier</strong>, Ismael Seidel, José Luis Güntzel;
+            <a href="https://sol.sbc.org.br/journals/index.php/reic/article/view/2080" style="text-decoration: underline;" target="_blank">
+              &quot;Eliminação de Candidatos Baseada em Taxa para Algoritmos de Estimação de Movimento na Codificação de Vídeo&quot;;
+            </a>
+            &nbsp; Concurso de Trabalhos de Iniciação Científica da SBC (CTIC-SBC) - 2021
+          </article>
+          <article>
+            <div class="tooltip">
+              <textarea id="bib-2018b" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@inproceedings{cancellier2018b,
+  author={Cancellier, Luiz Henrique and Seidel, Ismael and Güntzel, José Luís},
+  booktitle={2018 25th IEEE International Conference on Electronics, Circuits and Systems (ICECS)}, 
+  title={On HEVC Robustness to Integer Motion Estimation Pruning}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={197-200},
+  doi={10.1109/ICECS.2018.8617853}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2018b', 'bib-2018b')" onmouseout="outFunc('label-2017b')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2018b" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            <strong>Luiz Henrique Cancellier</strong>, Ismael Seidel, José Luis Güntzel;
+            <a href="https://ieeexplore.ieee.org/document/8617853" style="text-decoration: underline;" target="_blank">
+              &quot;On HEVC Robustness to Integer Motion Estimation Pruning&quot;;
+            </a>
+            &nbsp; 25th IEEE International Conference on Electronics, Circuits and Systems (ICECS) - 2018
+          </article>
+          <article id="SIM18">
+            <div class="tooltip">
+              <textarea id="bib-2018a" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@inproceedings{bonotto2018a,
+  author={Bonotto, Bruno and Cancellier, Luiz Henrique and Monteiro, Marcio and Seidel, Ismael and Güntzel, José Luís},
+  booktitle={33rd South Symposium on Microelectronics (SIM)}, 
+  title={A Named-Pipe Library for Hardware Simulation}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={169-172},
+  doi={}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2018a', 'bib-2018a')" onmouseout="outFunc('label-2018a')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2018a" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            Bruno Bonotto, <strong>Luiz Henrique Cancellier</strong>, Ismael Seidel, José Luis Güntzel;
+              &quot;A Named-Pipe Library for Hardware Simulation&quot;;
+            &nbsp; 33rd South Symposium on Microelectronics (SIM) - 2018
+          </article>
+
+          <article id="CTIC17">
+            <div class="tooltip">
+              <textarea id="bib-2017b" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@inproceedings{cancellier2017b,
+  author={Cancellier, Luiz Henrique and Seidel, Ismael and Güntzel, José Luís},
+  booktitle={Concurso de Trabalhos de Iniciação Científica da SBC (CTIC-SBC)}, 
+  title={Algoritmo de Eliminações Sucessivas em Níveis baseado na Soma das Diferenças Transformadas Absolutas}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={2502-2511},
+  doi={}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2017b', 'bib-2017b')" onmouseout="outFunc('label-2017b')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2017b" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            <strong>Luiz Henrique Cancellier</strong>, Ismael Seidel, José Luis Güntzel;
+            <a href="https://sol.sbc.org.br/index.php/ctic/article/view/3242/3204" style="text-decoration: underline;" target="_blank">
+              &quot;Algoritmo de Eliminações Sucessivas em Níveis baseado na Soma das Diferenças Transformadas Absolutas&quot;;
+            </a>
+            &nbsp; Concurso de Trabalhos de Iniciação Científica da SBC (CTIC-SBC) - 2017
+          </article>
+          <article>
+            <div class="tooltip">
+              <textarea id="bib-2017a" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@inproceedings{cancellier2017a,
+  author={Cancellier, Luiz Henrique and Seidel, Ismael and Güntzel, José Luís},
+  booktitle={2017 30th Symposium on Integrated Circuits and Systems Design (SBCCI)}, 
+  title={Block matching hardware architecture for SATD-based successive elimination}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={149-154},
+  doi={}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2017a', 'bib-2017a')" onmouseout="outFunc('label-2017a')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2017a" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            <strong>Luiz Henrique Cancellier</strong>, Ismael Seidel, José Luis Güntzel;
+            <a href="https://ieeexplore.ieee.org/document/8088571" style="text-decoration: underline;" target="_blank">
+              &quot;Block matching hardware architecture for SATD-based successive elimination&quot;;
+            </a>
+            &nbsp; 30th Symposium on Integrated Circuits and Systems Design (SBCCI) - 2017
+          </article>
+
+
+          <article>
+            <div class="tooltip">
+              <textarea id="bib-2016" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@inproceedings{seidel2016,
+  author={Seidel, Ismael and Cancellier, Luiz Henrique and Güntzel, José Luís and Agostini, Luciano},
+  booktitle={2016 IEEE International Conference on Image Processing (ICIP)}, 
+  title={Rate-constrained successive elimination of Hadamard-based SATDs}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={2395-2399},
+  doi={10.1109/ICIP.2016.7532788}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2016', 'bib-2016')" onmouseout="outFunc('label-2016')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2016" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            Ismael Seidel, <strong>Luiz Henrique Cancellier</strong>, José Luis Güntzel, Luciano Agostini;
+            <a href="https://jics.org.br/ojs/index.php/JICS/article/view/412" style="text-decoration: underline;" target="_blank">
+              &quot;Rate-constrained successive elimination of Hadamard-based SATDs&quot;;
+            </a>
+            &nbsp; IEEE International Conference on Image Processing (ICIP) - 2016
+          </article>
+          <article>
+            <div class="tooltip">
+              <textarea id="bib-2015" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@article{cancellier2015,
+  title={Exploring optimized Hadamard methods to design energy-efficient SATD architectures},
+  author={Cancellier, Luiz Henrique and Brascher, Andr{\'e} Beims and Seidel, Ismael and G{\"u}ntzel, Jos{\'e} Luis and Agostini, Luciano},
+  journal={Journal of Integrated Circuits and Systems},
+  volume={10},
+  number={2},
+  pages={113--122},
+  year={2015}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2015', 'bib-2015')" onmouseout="outFunc('label-2015')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2015" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            <strong>Luiz Henrique Cancellier</strong>, André Beims Brascher, Ismael Seidel, José Luis Güntzel, Luciano Agostini;
+            <a href="https://jics.org.br/ojs/index.php/JICS/article/view/412" style="text-decoration: underline;" target="_blank">
+              &quot;Exploring Optimized Hadamard Methods to Design Energy-Efficient SATD Processors&quot;;
+            </a>
+            &nbsp; Journal of Integrated Circuits and Systems (JICS) - 2015
+          </article>
+
+          <article>
+            <div class="tooltip">
+              <textarea id="bib-2014b" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@inproceedings{cancellier2014b,
+  author={Cancellier, Luiz Henrique and Bräscher, André Beims and Seidel, Ismael and Güntzel, José Luís},
+  booktitle={2014 27th Symposium on Integrated Circuits and Systems Design (SBCCI)}, 
+  title={Energy-efficient Hadamard-based SATD architectures}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1145/2660540.2661004}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2014b','bib-2014b')" onmouseout="outFunc('label-2014b')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2014b" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            <strong>Luiz Henrique Cancellier</strong>, André Beims Bräscher, Ismael Seidel, José Luís Güntzel;
+            <a href="https://ieeexplore.ieee.org/document/6994656" style="text-decoration: underline;" target="_blank">
+              &quot;Energy-Efficient Hadamard-Based SATD Architectures&quot;;
+            </a>
+            &nbsp; 27th Symposium on Integrated Circuits and Systems Design (SBCCI) - 2014
+          </article>
+          
+          <article>
+            <div class="tooltip">
+              <textarea id="bib-2014a" style="opacity: 0;position: absolute;z-index: -9999;pointer-events: none;">
+@inproceedings{cancellier2014a,
+  author={Cancellier, Luiz Henrique and Bräscher, André Beims and Seidel, Ismael and Güntzel, José Luís},
+  booktitle={29th South Symposium on Microelectronics (SIM)}, 
+  title={Design Space Evaluation of SATD Architectures}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={1-4},
+  doi={}}</textarea>
+              
+              <p onclick="copyToClipboard('label-2014a', 'bib-2014a')" onmouseout="outFunc('label-2014a')" style="text-decoration: underline;">
+                <span class="tooltiptext" id="label-2014a" >Copy to clipboard</span>
+                [Bibtex]
+              </p>
+            </div>
+            <strong>Luiz Henrique Cancellier</strong>, André Beims Bräscher, Ismael Seidel, José Luís Güntzel;
+              &quot;Design Space Evaluation of SATD Architectures&quot;;
+            </a>
+            &nbsp;29th South Symposium on Microelectronics (SIM) - 2014
+          </article>
+      </section>
+  </div>
+
+<script>
+
+  // function myFunction() {
+  function copyToClipboard(l, n) {
+    var tooltip = document.getElementById(l);
+    var id=n;
+    var txt=document.getElementById(id);
+    txt.select();
+    document.execCommand("copy");
+    // var text = tooltip.getAttribute('bibtex')
+    // navigator.clipboard.writeText(test);
+    tooltip.innerHTML = "Copied!";
+  }
+  
+  function outFunc(l) {
+    var tooltip = document.getElementById(l);
+    tooltip.innerHTML = "Copy to clipboard";
+  }
+  </script>
+</body>
+</html>
